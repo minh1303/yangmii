@@ -4,7 +4,6 @@ for (let image of images) {
     const viewer = new Viewer(image, {
         toolbar:false,
         title: false,
-        movable: false,
     navbar: false});
     image.addEventListener("click" , () => {
         viewer.show()
