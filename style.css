@@ -91,6 +91,9 @@ section p {
     section, #info, #images {
         width: 80%;
     }
+    #images {
+        flex-direction: column;
+    }
     section a {
         font-size: 1rem;
     }
