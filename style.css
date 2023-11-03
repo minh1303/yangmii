@@ -38,7 +38,7 @@ main {
 img {
     height: auto;
     width: 100%;
-    border: solid black 2px;
+    border: solid black 1px;
 }
 
 section {
@@ -88,11 +88,16 @@ section p {
 #showcase {
     width: 50%;
     margin-bottom: 2rem;
+    display: flex;
+}
+
+#showcase img {
+    width: 50%;
 }
 
 
 @media (max-width: 960px) {
-    section, #info, #images {
+    section, #info, #images, #showcase {
         width: 80%;
     }
     section a {
