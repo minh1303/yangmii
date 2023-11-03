@@ -81,6 +81,10 @@ section p {
     margin: 1rem 0;
 }
 
+#images img {
+    width: auto;
+}
+
 #showcase {
     width: 50%;
     margin-bottom: 2rem;
