@@ -91,12 +91,13 @@ section p {
 #showcase {
     width: 50%;
     margin-bottom: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.25rem;
 }
 
 #showcase img {
-    width: 50%;
+    width: 100%;
     object-fit: fill;
     height: auto;
     border: 0;
